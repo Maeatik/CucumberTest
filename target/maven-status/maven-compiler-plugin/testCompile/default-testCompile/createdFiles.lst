@@ -1,0 +1,13 @@
+cucumber\LoginFunction.class
+cucumber\DeletePhotoFunction.class
+pages\MainPage.class
+pages\AcademicPerformancePage.class
+cucumber\GoPagesFunctions.class
+cucumber\DownloadFunction.class
+cucumber\UploadFileFunction.class
+helper\ConfigReader.class
+pages\PersonalCabinetPage.class
+cucumber\AcademicPerformanceFunction.class
+cucumber\PersonalCabinetFunction.class
+pages\ServicePage.class
+SmokeTest.class

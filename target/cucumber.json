@@ -1,0 +1,750 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T16:52:51.619Z",
+        "line": 2,
+        "name": "login to kpfu site",
+        "description": "",
+        "id": "to-personal-cabinet;login-to-kpfu-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8224011200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "an open browser with main_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.anOpenBrowserWith()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 544245300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click login button",
+            "match": {
+              "location": "cucumber.LoginFunction.clickButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323651300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter a login in login input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterALoginInLoginInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2391513800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter a password in password input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterAPasswordInPasswordInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 946200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "site link must starts with shelly_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartShelly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:03.240Z",
+        "line": 9,
+        "name": "to personal cabinet",
+        "description": "",
+        "id": "to-personal-cabinet;to-personal-cabinet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3569800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "site link is shelly_url",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.openShellyLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 835772100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click academic performance button",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.clickAcademicPerformanceButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1232700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "site link is academic_performance_url",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.checkPersonalPerformancePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to personal cabinet",
+    "description": "",
+    "id": "to-personal-cabinet",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cucumber/checkPerformance.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T16:53:04.104Z",
+        "line": 2,
+        "name": "login to kpfu site",
+        "description": "",
+        "id": "download-document;login-to-kpfu-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1212408800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "an open browser with main_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.anOpenBrowserWith()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546458400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click login button",
+            "match": {
+              "location": "cucumber.LoginFunction.clickButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779186500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter a login in login input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterALoginInLoginInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175601200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter a password in password input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterAPasswordInPasswordInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "site link must starts with shelly_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartShelly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:07.838Z",
+        "line": 9,
+        "name": "to service page",
+        "description": "",
+        "id": "download-document;to-service-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "site link is shelly_url",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.openShellyLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1736193900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click service button",
+            "match": {
+              "location": "cucumber.DownloadFunction.clickPersonalCabinetButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1881800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "site link must starts with document_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartDoc()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:09.601Z",
+        "line": 14,
+        "name": "download document",
+        "description": "",
+        "id": "download-document;download-document",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "site link starts with document_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartDocUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 507135100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click documents button",
+            "match": {
+              "location": "cucumber.DownloadFunction.clickDocumentsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270467800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click pattern button",
+            "match": {
+              "location": "cucumber.DownloadFunction.clickPatternButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288176800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "download document",
+            "match": {
+              "location": "cucumber.DownloadFunction.downloadDocument()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9972900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "document should contains string \"З А Я В Л Е Н И Е\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"З А Я В Л Е Н И Е\"",
+                  "offset": 32
+                }
+              ],
+              "location": "cucumber.DownloadFunction.documentShouldContainsString(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "download document",
+    "description": "",
+    "id": "download-document",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cucumber/downloadDocument.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T16:53:11.696Z",
+        "line": 2,
+        "name": "login to kpfu site",
+        "description": "",
+        "id": "to-personal-cabinet;login-to-kpfu-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1012627100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "an open browser with main_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.anOpenBrowserWith()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 480507200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click login button",
+            "match": {
+              "location": "cucumber.LoginFunction.clickButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604714900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter a login in login input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterALoginInLoginInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667393200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter a password in password input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterAPasswordInPasswordInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "site link must starts with shelly_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartShelly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:14.475Z",
+        "line": 9,
+        "name": "to personal cabinet",
+        "description": "",
+        "id": "to-personal-cabinet;to-personal-cabinet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "site link is shelly_url",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.openShellyLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2289700800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click personal cabinet button",
+            "match": {
+              "location": "cucumber.PersonalCabinetFunction.clickPersonalCabinetButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58841400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "site link is stud_anketa_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.openAnketaLink()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to personal cabinet",
+    "description": "",
+    "id": "to-personal-cabinet",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cucumber/personalCabinet.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T16:53:16.838Z",
+        "line": 2,
+        "name": "login to kpfu site",
+        "description": "",
+        "id": "upload-profile-image;login-to-kpfu-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1668565200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "an open browser with main_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.anOpenBrowserWith()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 772013500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click login button",
+            "match": {
+              "location": "cucumber.LoginFunction.clickButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672569600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter a login in login input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterALoginInLoginInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270302800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter a password in password input field",
+            "match": {
+              "location": "cucumber.LoginFunction.enterAPasswordInPasswordInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "site link must starts with shelly_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.mustStartShelly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:21.238Z",
+        "line": 9,
+        "name": "to personal cabinet",
+        "description": "",
+        "id": "upload-profile-image;to-personal-cabinet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "site link is shelly_url",
+            "match": {
+              "location": "cucumber.AcademicPerformanceFunction.openShellyLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2941264300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click personal cabinet button",
+            "match": {
+              "location": "cucumber.PersonalCabinetFunction.clickPersonalCabinetButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7416100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "site link is stud_anketa_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.openAnketaLink()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:24.189Z",
+        "line": 14,
+        "name": "delete profile image",
+        "description": "",
+        "id": "upload-profile-image;delete-profile-image",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8501100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "site link is stud_anketa_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.openAnketaLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 537410100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "profile has image",
+            "match": {
+              "location": "cucumber.DeletePhotoFunction.profileHasImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251031200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click delete image button",
+            "match": {
+              "location": "cucumber.DeletePhotoFunction.profileDeleteClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 966914800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "delete menu opened",
+            "match": {
+              "location": "cucumber.DeletePhotoFunction.profileCheckWindow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1591123900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click yes button",
+            "match": {
+              "location": "cucumber.DeletePhotoFunction.profileDeleteImageClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190981200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "profile has not image",
+            "match": {
+              "location": "cucumber.UploadFileFunction.profileHasNotImage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T16:53:27.742Z",
+        "line": 22,
+        "name": "upload profile image",
+        "description": "",
+        "id": "upload-profile-image;upload-profile-image",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125990600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "site link is stud_anketa_url",
+            "match": {
+              "location": "cucumber.GoPagesFunctions.openAnketaLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12092400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "profile has not image",
+            "match": {
+              "location": "cucumber.UploadFileFunction.profileHasNotImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66461800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "upload file \"foto.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"foto.jpg\"",
+                  "offset": 12
+                }
+              ],
+              "location": "cucumber.UploadFileFunction.uploadFile(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16450825500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click add image button",
+            "match": {
+              "location": "cucumber.UploadFileFunction.clickAddImageButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444748600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "profile should has image",
+            "match": {
+              "location": "cucumber.UploadFileFunction.profileShouldHasImage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "upload profile image",
+    "description": "",
+    "id": "upload-profile-image",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cucumber/uploadImage.feature",
+    "tags": []
+  }
+]
